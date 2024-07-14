@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DD364F199CCF3CC8408D53B /* Pods_TheKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBE749BD585C6E613A8543C /* Pods_TheKata.framework */; };
+		6E37DC392C441FE600A7443D /* TheKata.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E37DC382C441FE600A7443D /* TheKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E37DC422C4420E100A7443D /* IDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC3F2C4420E000A7443D /* IDestination.swift */; };
+		6E37DC432C4420E100A7443D /* ISource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC402C4420E100A7443D /* ISource.swift */; };
+		6E37DC442C4420E100A7443D /* Copier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC412C4420E100A7443D /* Copier.swift */; };
+		6E37DC552C44293C00A7443D /* TheKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC542C44293C00A7443D /* TheKataTests.swift */; };
+		6E37DC562C44293C00A7443D /* TheKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37DC352C441FE600A7443D /* TheKata.framework */; platformFilter = ios; };
+		6E37DC5F2C442AD000A7443D /* GeneratedMocks+TheKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC5E2C442AD000A7443D /* GeneratedMocks+TheKata.swift */; };
+		6E37DC6B2C443FEE00A7443D /* MultipleCopier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC6A2C443FEE00A7443D /* MultipleCopier.swift */; };
+		6E37DC6E2C4480C800A7443D /* GeneratedMocks+TheKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC5E2C442AD000A7443D /* GeneratedMocks+TheKata.swift */; };
+		6E37DC712C44816100A7443D /* Copier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC412C4420E100A7443D /* Copier.swift */; };
+		6E37DC722C44816300A7443D /* MultipleCopier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC6A2C443FEE00A7443D /* MultipleCopier.swift */; };
+		6E37DC732C44816600A7443D /* IDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC3F2C4420E000A7443D /* IDestination.swift */; };
+		6E37DC742C44816800A7443D /* ISource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E37DC402C4420E100A7443D /* ISource.swift */; };
+		6E64478039B6670592B1A7D8 /* Pods_TheKata_TheKataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BADF09D51062EF1FEE0F11 /* Pods_TheKata_TheKataTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E37DC572C44293C00A7443D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E37DC2C2C441FE600A7443D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E37DC342C441FE600A7443D;
+			remoteInfo = TheKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37BADF09D51062EF1FEE0F11 /* Pods_TheKata_TheKataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheKata_TheKataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBE749BD585C6E613A8543C /* Pods_TheKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D33E968176E7C6FBD429F43 /* Pods-TheKata-TheKataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKata-TheKataTests.release.xcconfig"; path = "Target Support Files/Pods-TheKata-TheKataTests/Pods-TheKata-TheKataTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E37DC352C441FE600A7443D /* TheKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37DC382C441FE600A7443D /* TheKata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheKata.h; sourceTree = "<group>"; };
+		6E37DC3F2C4420E000A7443D /* IDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDestination.swift; sourceTree = "<group>"; };
+		6E37DC402C4420E100A7443D /* ISource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISource.swift; sourceTree = "<group>"; };
+		6E37DC412C4420E100A7443D /* Copier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Copier.swift; sourceTree = "<group>"; };
+		6E37DC522C44293C00A7443D /* TheKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37DC542C44293C00A7443D /* TheKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKataTests.swift; sourceTree = "<group>"; };
+		6E37DC5E2C442AD000A7443D /* GeneratedMocks+TheKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeneratedMocks+TheKata.swift"; sourceTree = "<group>"; };
+		6E37DC6A2C443FEE00A7443D /* MultipleCopier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleCopier.swift; sourceTree = "<group>"; };
+		A1B5A809736BBD45B725FD99 /* Pods-TheKata-TheKataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKata-TheKataTests.debug.xcconfig"; path = "Target Support Files/Pods-TheKata-TheKataTests/Pods-TheKata-TheKataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5879F7026FE66E062A084F3 /* Pods-TheKata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKata.debug.xcconfig"; path = "Target Support Files/Pods-TheKata/Pods-TheKata.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDDDD3400FDEDF0CF531FC3 /* Pods-TheKata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKata.release.xcconfig"; path = "Target Support Files/Pods-TheKata/Pods-TheKata.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E37DC322C441FE600A7443D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD364F199CCF3CC8408D53B /* Pods_TheKata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37DC4F2C44293C00A7443D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37DC562C44293C00A7443D /* TheKata.framework in Frameworks */,
+				6E64478039B6670592B1A7D8 /* Pods_TheKata_TheKataTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463E2F0736C670018992F08D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5879F7026FE66E062A084F3 /* Pods-TheKata.debug.xcconfig */,
+				DCDDDD3400FDEDF0CF531FC3 /* Pods-TheKata.release.xcconfig */,
+				A1B5A809736BBD45B725FD99 /* Pods-TheKata-TheKataTests.debug.xcconfig */,
+				3D33E968176E7C6FBD429F43 /* Pods-TheKata-TheKataTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E37DC2B2C441FE600A7443D = {
+			isa = PBXGroup;
+			children = (
+				6E37DC4C2C44291D00A7443D /* Generated */,
+				6E37DC372C441FE600A7443D /* TheKata */,
+				6E37DC532C44293C00A7443D /* TheKataTests */,
+				6E37DC362C441FE600A7443D /* Products */,
+				463E2F0736C670018992F08D /* Pods */,
+				8032505628807198204A78A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E37DC362C441FE600A7443D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E37DC352C441FE600A7443D /* TheKata.framework */,
+				6E37DC522C44293C00A7443D /* TheKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E37DC372C441FE600A7443D /* TheKata */ = {
+			isa = PBXGroup;
+			children = (
+				6E37DC412C4420E100A7443D /* Copier.swift */,
+				6E37DC6A2C443FEE00A7443D /* MultipleCopier.swift */,
+				6E37DC3F2C4420E000A7443D /* IDestination.swift */,
+				6E37DC402C4420E100A7443D /* ISource.swift */,
+				6E37DC382C441FE600A7443D /* TheKata.h */,
+			);
+			path = TheKata;
+			sourceTree = "<group>";
+		};
+		6E37DC4C2C44291D00A7443D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				6E37DC5E2C442AD000A7443D /* GeneratedMocks+TheKata.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		6E37DC532C44293C00A7443D /* TheKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E37DC542C44293C00A7443D /* TheKataTests.swift */,
+			);
+			path = TheKataTests;
+			sourceTree = "<group>";
+		};
+		8032505628807198204A78A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE749BD585C6E613A8543C /* Pods_TheKata.framework */,
+				37BADF09D51062EF1FEE0F11 /* Pods_TheKata_TheKataTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E37DC302C441FE600A7443D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37DC392C441FE600A7443D /* TheKata.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E37DC342C441FE600A7443D /* TheKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37DC3C2C441FE600A7443D /* Build configuration list for PBXNativeTarget "TheKata" */;
+			buildPhases = (
+				346413C581E7B07B18008D15 /* [CP] Check Pods Manifest.lock */,
+				6E37DC302C441FE600A7443D /* Headers */,
+				6E37DC6F2C44813C00A7443D /* ShellScript */,
+				6E37DC312C441FE600A7443D /* Sources */,
+				6E37DC322C441FE600A7443D /* Frameworks */,
+				6E37DC332C441FE600A7443D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheKata;
+			productName = TheKata;
+			productReference = 6E37DC352C441FE600A7443D /* TheKata.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E37DC512C44293C00A7443D /* TheKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37DC592C44293C00A7443D /* Build configuration list for PBXNativeTarget "TheKataTests" */;
+			buildPhases = (
+				A324B8B5F99568F59B7CD38E /* [CP] Check Pods Manifest.lock */,
+				6E37DC6D2C44809100A7443D /* ShellScript */,
+				6E37DC4E2C44293C00A7443D /* Sources */,
+				6E37DC4F2C44293C00A7443D /* Frameworks */,
+				6E37DC502C44293C00A7443D /* Resources */,
+				6DFA7F9756A7503D5716266B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E37DC582C44293C00A7443D /* PBXTargetDependency */,
+			);
+			name = TheKataTests;
+			productName = TheKataTests;
+			productReference = 6E37DC522C44293C00A7443D /* TheKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E37DC2C2C441FE600A7443D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6E37DC342C441FE600A7443D = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					6E37DC512C44293C00A7443D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6E37DC2F2C441FE600A7443D /* Build configuration list for PBXProject "TheKata" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E37DC2B2C441FE600A7443D;
+			productRefGroup = 6E37DC362C441FE600A7443D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E37DC342C441FE600A7443D /* TheKata */,
+				6E37DC512C44293C00A7443D /* TheKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E37DC332C441FE600A7443D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37DC502C44293C00A7443D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346413C581E7B07B18008D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheKata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFA7F9756A7503D5716266B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheKata-TheKataTests/Pods-TheKata-TheKataTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheKata-TheKataTests/Pods-TheKata-TheKataTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheKata-TheKataTests/Pods-TheKata-TheKataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E37DC6D2C44809100A7443D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Skip for indexing\nif [ $ACTION == \"indexbuild\" ]; then\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  exit 0\nfi\n\n\"${PODS_ROOT}/Cuckoo/run\"\n";
+		};
+		6E37DC6F2C44813C00A7443D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Skip for indexing\nif [ $ACTION == \"indexbuild\" ]; then\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  exit 0\nfi\n\n\"${PODS_ROOT}/Cuckoo/run\"\n";
+		};
+		A324B8B5F99568F59B7CD38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheKata-TheKataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E37DC312C441FE600A7443D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37DC432C4420E100A7443D /* ISource.swift in Sources */,
+				6E37DC6B2C443FEE00A7443D /* MultipleCopier.swift in Sources */,
+				6E37DC422C4420E100A7443D /* IDestination.swift in Sources */,
+				6E37DC442C4420E100A7443D /* Copier.swift in Sources */,
+				6E37DC6E2C4480C800A7443D /* GeneratedMocks+TheKata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E37DC4E2C44293C00A7443D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E37DC5F2C442AD000A7443D /* GeneratedMocks+TheKata.swift in Sources */,
+				6E37DC732C44816600A7443D /* IDestination.swift in Sources */,
+				6E37DC722C44816300A7443D /* MultipleCopier.swift in Sources */,
+				6E37DC552C44293C00A7443D /* TheKataTests.swift in Sources */,
+				6E37DC742C44816800A7443D /* ISource.swift in Sources */,
+				6E37DC712C44816100A7443D /* Copier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E37DC582C44293C00A7443D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 6E37DC342C441FE600A7443D /* TheKata */;
+			targetProxy = 6E37DC572C44293C00A7443D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E37DC3A2C441FE600A7443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E37DC3B2C441FE600A7443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E37DC3D2C441FE600A7443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5879F7026FE66E062A084F3 /* Pods-TheKata.debug.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TheKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E37DC3E2C441FE600A7443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDDDD3400FDEDF0CF531FC3 /* Pods-TheKata.release.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TheKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E37DC5A2C44293C00A7443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B5A809736BBD45B725FD99 /* Pods-TheKata-TheKataTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TheKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E37DC5B2C44293C00A7443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D33E968176E7C6FBD429F43 /* Pods-TheKata-TheKataTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TheKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E37DC2F2C441FE600A7443D /* Build configuration list for PBXProject "TheKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37DC3A2C441FE600A7443D /* Debug */,
+				6E37DC3B2C441FE600A7443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37DC3C2C441FE600A7443D /* Build configuration list for PBXNativeTarget "TheKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37DC3D2C441FE600A7443D /* Debug */,
+				6E37DC3E2C441FE600A7443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37DC592C44293C00A7443D /* Build configuration list for PBXNativeTarget "TheKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E37DC5A2C44293C00A7443D /* Debug */,
+				6E37DC5B2C44293C00A7443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E37DC2C2C441FE600A7443D /* Project object */;
+}
